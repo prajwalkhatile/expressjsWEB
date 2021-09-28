@@ -1,0 +1,251 @@
+.register {
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    margin-top: 3%;
+    padding: 3%;
+}
+
+.register-left {
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+}
+
+.register-left input {
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    width: 60%;
+    background: #f8f9fa;
+    font-weight: bold;
+    color: #383d41;
+    margin-top: 30%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+
+.register-right {
+    background: #f8f9fa;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+
+.register-left img {
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 25%;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.register-left p {
+    font-weight: lighter;
+    padding: 12%;
+    margin-top: -9%;
+}
+
+.register .register-form {
+    padding: 10%;
+    margin-top: 10%;
+}
+
+.btnRegister {
+    float: right;
+    margin-top: 10%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background: #0062cc;
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+    cursor: pointer;
+}
+
+.register .nav-tabs {
+    margin-top: 3%;
+    border: none;
+    background: #0062cc;
+    border-radius: 1.5rem;
+    width: 28%;
+    float: right;
+}
+
+.register .nav-tabs .nav-link {
+    padding: 2%;
+    height: 34px;
+    font-weight: 600;
+    color: #fff;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+.register .nav-tabs .nav-link:hover {
+    border: none;
+}
+
+.register .nav-tabs .nav-link.active {
+    width: 100px;
+    color: #0062cc;
+    border: 2px solid #0062cc;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+
+.register-heading {
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: -15%;
+    color: #495057;
+}
+
+
+/* navbar styling  */
+
+.navbar {
+    background-color: rgb(34, 33, 33);
+}
+
+.navbar a {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.navbar a:hover {
+    color: rgb(141, 140, 140);
+}
+
+.navbar-toggler {
+    background-color: gainsboro;
+}
+
+
+/* footer style */
+
+.footer_style {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+/* style for the content of index page */
+
+.main_header_left {
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main_header_left p {
+    font-size: 1.5rem;
+}
+
+.main_header_left h1 span {
+    color: aqua;
+}
+
+.main_header_left button {
+    text-transform: uppercase;
+    margin-top: 1rem;
+    padding: 0.8rem;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 4px 8px black;
+    outline: none;
+    background-color: gainsboro;
+}
+
+.main_header_left button:hover {
+    box-shadow: 0 4px 6px aqua;
+}
+
+.main_header_right {
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.main_header_right img {
+    height: 15rem;
+    width: 20rem;
+}
+
+
+/* weather section */
+
+.main_content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    margin-top: 3rem;
+}
+
+
+/* navbar icon animation */
+
+.fa-snowflake {
+    transition: all linear;
+    animation: rot 2s linear infinite;
+}
+
+@keyframes rot {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* style for login page */
+
+body {
+    margin: 0 15px;
+    padding: 0;
+    height: 100vh;
+}
+
+#login .container #login-row #login-column #login-box {
+    margin-top: 120px;
+    max-width: 600px;
+    height: 320px;
+    border: 1px solid #000000;
+    background-color: #fafafa;
+}
+
+#login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+}
+
+#login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -85px;
+}
